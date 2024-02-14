@@ -20,8 +20,8 @@ devDependencies:
     specifier: ^6.20.0
     version: 6.20.0(eslint@8.56.0)(typescript@5.2.2)
   astro-themes:
-    specifier: ^0.2.4
-    version: 0.2.4(astro@4.3.6)
+    specifier: ^0.2.5
+    version: 0.2.5(astro@4.3.6)
   eslint:
     specifier: ^8.56.0
     version: 8.56.0
@@ -1001,8 +1001,8 @@ packages:
       - supports-color
     dev: true
 
-  /astro-themes@0.2.4(astro@4.3.6):
-    resolution: {integrity: sha512-8MUrH4QgOtAmR1RjsERsOFzPhVHTfHRiAi5dCufWsRZCzH11Z+EeHUTCjQl+jDqmRaE7ICP5hLXgC8pGIR/4kA==}
+  /astro-themes@0.2.5(astro@4.3.6):
+    resolution: {integrity: sha512-aJGSKlgS1ggXZXARsusd1IzUpJ3ohSgSn2rYYtNG4s+by/w5Sctg9YI1yE1Ny+oDKalWKGLVKICygaLqVf9JBQ==}
     peerDependencies:
       astro: '*'
     dependencies:
