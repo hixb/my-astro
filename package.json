@@ -18,7 +18,7 @@
     "@typescript-eslint/parser": "^7.9.0",
     "astro-themes": "^0.2.5",
     "eslint": "^8.57.0",
-    "eslint-plugin-astro": "^1.1.0",
+    "eslint-plugin-astro": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "sass": "^1.77.3"
   }
