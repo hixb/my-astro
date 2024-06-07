@@ -10,7 +10,7 @@ dependencies:
     version: 5.1.0(astro@4.10.0)(tailwindcss@3.4.1)
   astro:
     specifier: ^4.10.0
-    version: 4.10.0(sass@1.77.3)(typescript@5.2.2)
+    version: 4.10.0(sass@1.77.4)(typescript@5.2.2)
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
@@ -32,8 +32,8 @@ devDependencies:
     specifier: ^6.8.0
     version: 6.8.0(eslint@8.57.0)
   sass:
-    specifier: ^1.77.3
-    version: 1.77.3
+    specifier: ^1.77.4
+    version: 1.77.4
 
 packages:
 
@@ -96,7 +96,7 @@ packages:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.10.0(sass@1.77.3)(typescript@5.2.2)
+      astro: 4.10.0(sass@1.77.4)(typescript@5.2.2)
       autoprefixer: 10.4.15(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -1413,10 +1413,10 @@ packages:
     peerDependencies:
       astro: '*'
     dependencies:
-      astro: 4.10.0(sass@1.77.3)(typescript@5.2.2)
+      astro: 4.10.0(sass@1.77.4)(typescript@5.2.2)
     dev: true
 
-  /astro@4.10.0(sass@1.77.3)(typescript@5.2.2):
+  /astro@4.10.0(sass@1.77.4)(typescript@5.2.2):
     resolution: {integrity: sha512-UNVGGZIwdEPIUumcwgIQnd90b4/PslReY9q3xy/Q6bIq/kvK0duIWCbhFPwf06xu+1tExziP9Jl+klvLXM0LfA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
@@ -1478,7 +1478,7 @@ packages:
       tsconfck: 3.1.0(typescript@5.2.2)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.2.12(sass@1.77.3)
+      vite: 5.2.12(sass@1.77.4)
       vitefu: 0.2.5(vite@5.2.12)
       which-pm: 2.2.0
       yargs-parser: 21.1.1
@@ -4092,8 +4092,8 @@ packages:
       is-regex: 1.1.4
     dev: true
 
-  /sass@1.77.3:
-    resolution: {integrity: sha512-WJHo+jmFp0dwRuymPmIovuxHaBntcCyja5hCB0yYY9wWrViEp4kF5Cdai98P72v6FzroPuABqu+ddLMbQWmwzA==}
+  /sass@1.77.4:
+    resolution: {integrity: sha512-vcF3Ckow6g939GMA4PeU7b2K/9FALXk2KF9J87txdHzXbUF9XRQRwSxcAs/fGaTnJeBFd7UoV22j3lzMLdM0Pw==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
@@ -4660,7 +4660,7 @@ packages:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  /vite@5.2.12(sass@1.77.3):
+  /vite@5.2.12(sass@1.77.4):
     resolution: {integrity: sha512-/gC8GxzxMK5ntBwb48pR32GGhENnjtY30G4A0jemunsBkiEZFw60s8InGpN8gkhHEkjnRK1aSAxeQgwvFhUHAA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4691,7 +4691,7 @@ packages:
       esbuild: 0.20.2
       postcss: 8.4.38
       rollup: 4.17.2
-      sass: 1.77.3
+      sass: 1.77.4
     optionalDependencies:
       fsevents: 2.3.3
 
@@ -4703,7 +4703,7 @@ packages:
       vite:
         optional: true
     dependencies:
-      vite: 5.2.12(sass@1.77.3)
+      vite: 5.2.12(sass@1.77.4)
 
   /web-namespaces@2.0.1:
     resolution: {integrity: sha512-bKr1DkiNa2krS7qxNtdrtHAmzuYGFQLiQ13TsorsdT6ULTkPLKuu5+GsFpDlg6JFjUTwX2DyhMPG2be8uPrqsQ==}
