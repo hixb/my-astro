@@ -7,10 +7,10 @@ settings:
 dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
-    version: 5.1.0(astro@4.10.0)(tailwindcss@3.4.1)
+    version: 5.1.0(astro@4.10.1)(tailwindcss@3.4.1)
   astro:
-    specifier: ^4.10.0
-    version: 4.10.0(sass@1.77.3)(typescript@5.2.2)
+    specifier: ^4.10.1
+    version: 4.10.1(sass@1.77.3)(typescript@5.2.2)
   tailwindcss:
     specifier: ^3.4.1
     version: 3.4.1
@@ -21,7 +21,7 @@ devDependencies:
     version: 7.9.0(eslint@8.57.0)(typescript@5.2.2)
   astro-themes:
     specifier: ^0.2.5
-    version: 0.2.5(astro@4.10.0)
+    version: 0.2.5(astro@4.10.1)
   eslint:
     specifier: ^8.57.0
     version: 8.57.0
@@ -90,13 +90,13 @@ packages:
     dependencies:
       prismjs: 1.29.0
 
-  /@astrojs/tailwind@5.1.0(astro@4.10.0)(tailwindcss@3.4.1):
+  /@astrojs/tailwind@5.1.0(astro@4.10.1)(tailwindcss@3.4.1):
     resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
       tailwindcss: ^3.0.24
     dependencies:
-      astro: 4.10.0(sass@1.77.3)(typescript@5.2.2)
+      astro: 4.10.1(sass@1.77.3)(typescript@5.2.2)
       autoprefixer: 10.4.15(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -1408,16 +1408,16 @@ packages:
       - typescript
     dev: true
 
-  /astro-themes@0.2.5(astro@4.10.0):
+  /astro-themes@0.2.5(astro@4.10.1):
     resolution: {integrity: sha512-aJGSKlgS1ggXZXARsusd1IzUpJ3ohSgSn2rYYtNG4s+by/w5Sctg9YI1yE1Ny+oDKalWKGLVKICygaLqVf9JBQ==}
     peerDependencies:
       astro: '*'
     dependencies:
-      astro: 4.10.0(sass@1.77.3)(typescript@5.2.2)
+      astro: 4.10.1(sass@1.77.3)(typescript@5.2.2)
     dev: true
 
-  /astro@4.10.0(sass@1.77.3)(typescript@5.2.2):
-    resolution: {integrity: sha512-UNVGGZIwdEPIUumcwgIQnd90b4/PslReY9q3xy/Q6bIq/kvK0duIWCbhFPwf06xu+1tExziP9Jl+klvLXM0LfA==}
+  /astro@4.10.1(sass@1.77.3)(typescript@5.2.2):
+    resolution: {integrity: sha512-7bbnUX1CW+12suz0Do8ef1CihqVjDyUW/H/0piNHZyBE3W/VFt5GP5ZxlPzzJLoGtaXif0aXJ4iPurEem2LpdA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
     dependencies:
@@ -3757,7 +3757,7 @@ packages:
       postcss: 8.4.32
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
-      resolve: 1.22.4
+      resolve: 1.22.8
     dev: false
 
   /postcss-js@4.0.1(postcss@8.4.32):
