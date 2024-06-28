@@ -10,10 +10,10 @@ importers:
     dependencies:
       '@astrojs/tailwind':
         specifier: ^5.1.0
-        version: 5.1.0(astro@4.11.3(sass@1.77.3)(typescript@5.2.2))(tailwindcss@3.4.1)
+        version: 5.1.0(astro@4.11.3(sass@1.77.6)(typescript@5.2.2))(tailwindcss@3.4.1)
       astro:
         specifier: ^4.11.3
-        version: 4.11.3(sass@1.77.3)(typescript@5.2.2)
+        version: 4.11.3(sass@1.77.6)(typescript@5.2.2)
       tailwindcss:
         specifier: ^3.4.1
         version: 3.4.1
@@ -23,7 +23,7 @@ importers:
         version: 7.9.0(eslint@8.57.0)(typescript@5.2.2)
       astro-themes:
         specifier: ^0.2.5
-        version: 0.2.5(astro@4.11.3(sass@1.77.3)(typescript@5.2.2))
+        version: 0.2.5(astro@4.11.3(sass@1.77.6)(typescript@5.2.2))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -34,8 +34,8 @@ importers:
         specifier: ^6.8.0
         version: 6.8.0(eslint@8.57.0)
       sass:
-        specifier: ^1.77.3
-        version: 1.77.3
+        specifier: ^1.77.6
+        version: 1.77.6
 
 packages:
 
@@ -2171,8 +2171,8 @@ packages:
   safe-regex-test@1.0.0:
     resolution: {integrity: sha512-JBUUzyOgEwXQY1NuPtvcj/qcBDbDmEvWufhlnXZIm75DEHp+afM1r1ujJpJsV/gSM4t59tpDyPi1sd6ZaPFfsA==}
 
-  sass@1.77.3:
-    resolution: {integrity: sha512-WJHo+jmFp0dwRuymPmIovuxHaBntcCyja5hCB0yYY9wWrViEp4kF5Cdai98P72v6FzroPuABqu+ddLMbQWmwzA==}
+  sass@1.77.6:
+    resolution: {integrity: sha512-ByXE1oLD79GVq9Ht1PeHWCPMPB8XHpBuz1r85oByKHjZY6qV6rWnQovQzXJXuQ/XyE1Oj3iPk3lo28uzaRA2/Q==}
     engines: {node: '>=14.0.0'}
     hasBin: true
 
@@ -2613,9 +2613,9 @@ snapshots:
     dependencies:
       prismjs: 1.29.0
 
-  '@astrojs/tailwind@5.1.0(astro@4.11.3(sass@1.77.3)(typescript@5.2.2))(tailwindcss@3.4.1)':
+  '@astrojs/tailwind@5.1.0(astro@4.11.3(sass@1.77.6)(typescript@5.2.2))(tailwindcss@3.4.1)':
     dependencies:
-      astro: 4.11.3(sass@1.77.3)(typescript@5.2.2)
+      astro: 4.11.3(sass@1.77.6)(typescript@5.2.2)
       autoprefixer: 10.4.15(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
@@ -3266,11 +3266,11 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-themes@0.2.5(astro@4.11.3(sass@1.77.3)(typescript@5.2.2)):
+  astro-themes@0.2.5(astro@4.11.3(sass@1.77.6)(typescript@5.2.2)):
     dependencies:
-      astro: 4.11.3(sass@1.77.3)(typescript@5.2.2)
+      astro: 4.11.3(sass@1.77.6)(typescript@5.2.2)
 
-  astro@4.11.3(sass@1.77.3)(typescript@5.2.2):
+  astro@4.11.3(sass@1.77.6)(typescript@5.2.2):
     dependencies:
       '@astrojs/compiler': 2.8.1
       '@astrojs/internal-helpers': 0.4.1
@@ -3328,8 +3328,8 @@ snapshots:
       tsconfck: 3.1.0(typescript@5.2.2)
       unist-util-visit: 5.0.0
       vfile: 6.0.1
-      vite: 5.3.1(sass@1.77.3)
-      vitefu: 0.2.5(vite@5.3.1(sass@1.77.3))
+      vite: 5.3.1(sass@1.77.6)
+      vitefu: 0.2.5(vite@5.3.1(sass@1.77.6))
       which-pm: 2.2.0
       yargs-parser: 21.1.1
       zod: 3.23.8
@@ -5128,7 +5128,7 @@ snapshots:
       get-intrinsic: 1.2.1
       is-regex: 1.1.4
 
-  sass@1.77.3:
+  sass@1.77.6:
     dependencies:
       chokidar: 3.6.0
       immutable: 4.3.4
@@ -5494,18 +5494,18 @@ snapshots:
       unist-util-stringify-position: 4.0.0
       vfile-message: 4.0.2
 
-  vite@5.3.1(sass@1.77.3):
+  vite@5.3.1(sass@1.77.6):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.38
       rollup: 4.17.2
     optionalDependencies:
       fsevents: 2.3.3
-      sass: 1.77.3
+      sass: 1.77.6
 
-  vitefu@0.2.5(vite@5.3.1(sass@1.77.3)):
+  vitefu@0.2.5(vite@5.3.1(sass@1.77.6)):
     optionalDependencies:
-      vite: 5.3.1(sass@1.77.3)
+      vite: 5.3.1(sass@1.77.6)
 
   web-namespaces@2.0.1: {}
 
