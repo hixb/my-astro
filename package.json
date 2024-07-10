@@ -20,6 +20,6 @@
     "eslint": "^8.57.0",
     "eslint-plugin-astro": "^1.2.3",
     "eslint-plugin-jsx-a11y": "^6.8.0",
-    "sass": "^1.77.3"
+    "sass": "^1.77.7"
   }
 }
