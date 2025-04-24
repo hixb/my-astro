@@ -22,8 +22,8 @@ importers:
         specifier: ^7.9.0
         version: 7.9.0(eslint@8.57.0)(typescript@5.2.2)
       astro-themes:
-        specifier: ^0.2.5
-        version: 0.2.5(astro@4.11.5(sass@1.77.7)(typescript@5.2.2))
+        specifier: ^0.2.6
+        version: 0.2.6(astro@4.11.5(sass@1.77.7)(typescript@5.2.2))
       eslint:
         specifier: ^8.57.0
         version: 8.57.0
@@ -755,8 +755,8 @@ packages:
     resolution: {integrity: sha512-8hJaCuqxObShWl2wEsnASqh/DbQ2O+S66m0Q3ctJlzBPEQ4pfGwwama3FCjZO3GDLQsjvn1T0v93Vxyu/+5fGw==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  astro-themes@0.2.5:
-    resolution: {integrity: sha512-aJGSKlgS1ggXZXARsusd1IzUpJ3ohSgSn2rYYtNG4s+by/w5Sctg9YI1yE1Ny+oDKalWKGLVKICygaLqVf9JBQ==}
+  astro-themes@0.2.6:
+    resolution: {integrity: sha512-rw/tB2967Ile85siw5J+L7VKBVYIb1qcUVceYleJpZQx1Ef9cdgZ5DNyvukkcpEBggc+274erubeVk0dF6qwmw==}
     peerDependencies:
       astro: '*'
 
@@ -1179,6 +1179,7 @@ packages:
   eslint@8.57.0:
     resolution: {integrity: sha512-dZ6+mexnaTIbSBZWgou51U6OmzIhYM2VcNdtiTtI7qPNZm35Akpr0f6vtw3w1Kmn5PYo+tZVfh13WrhpS6oLqQ==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
+    deprecated: This version is no longer supported. Please see https://eslint.org/version-support for other options.
     hasBin: true
 
   espree@10.0.1:
@@ -3432,7 +3433,7 @@ snapshots:
       - supports-color
       - typescript
 
-  astro-themes@0.2.5(astro@4.11.5(sass@1.77.7)(typescript@5.2.2)):
+  astro-themes@0.2.6(astro@4.11.5(sass@1.77.7)(typescript@5.2.2)):
     dependencies:
       astro: 4.11.5(sass@1.77.7)(typescript@5.2.2)
 
